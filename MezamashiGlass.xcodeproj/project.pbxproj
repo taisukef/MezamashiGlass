@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E5DFF421CFCF75500085589 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5DFF411CFCF75500085589 /* AppDelegate.swift */; };
+		6E5DFF441CFCF75500085589 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5DFF431CFCF75500085589 /* ViewController.swift */; };
+		6E5DFF471CFCF75500085589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5DFF451CFCF75500085589 /* Main.storyboard */; };
+		6E5DFF4A1CFCF75500085589 /* MezamashiGlass.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E5DFF481CFCF75500085589 /* MezamashiGlass.xcdatamodeld */; };
+		6E5DFF4C1CFCF75500085589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E5DFF4B1CFCF75500085589 /* Assets.xcassets */; };
+		6E5DFF4F1CFCF75500085589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5DFF4D1CFCF75500085589 /* LaunchScreen.storyboard */; };
+		6E5DFF5A1CFCF75500085589 /* MezamashiGlassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5DFF591CFCF75500085589 /* MezamashiGlassTests.swift */; };
+		6E5DFF651CFCF75500085589 /* MezamashiGlassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5DFF641CFCF75500085589 /* MezamashiGlassUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E5DFF561CFCF75500085589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E5DFF361CFCF75500085589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5DFF3D1CFCF75500085589;
+			remoteInfo = MezamashiGlass;
+		};
+		6E5DFF611CFCF75500085589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E5DFF361CFCF75500085589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5DFF3D1CFCF75500085589;
+			remoteInfo = MezamashiGlass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E5DFF3E1CFCF75500085589 /* MezamashiGlass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MezamashiGlass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5DFF411CFCF75500085589 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E5DFF431CFCF75500085589 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E5DFF461CFCF75500085589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E5DFF491CFCF75500085589 /* MezamashiGlass.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MezamashiGlass.xcdatamodel; sourceTree = "<group>"; };
+		6E5DFF4B1CFCF75500085589 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E5DFF4E1CFCF75500085589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E5DFF501CFCF75500085589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5DFF551CFCF75500085589 /* MezamashiGlassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MezamashiGlassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5DFF591CFCF75500085589 /* MezamashiGlassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MezamashiGlassTests.swift; sourceTree = "<group>"; };
+		6E5DFF5B1CFCF75500085589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5DFF601CFCF75500085589 /* MezamashiGlassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MezamashiGlassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5DFF641CFCF75500085589 /* MezamashiGlassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MezamashiGlassUITests.swift; sourceTree = "<group>"; };
+		6E5DFF661CFCF75500085589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E5DFF3B1CFCF75500085589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5DFF521CFCF75500085589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5DFF5D1CFCF75500085589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E5DFF351CFCF75500085589 = {
+			isa = PBXGroup;
+			children = (
+				6E5DFF401CFCF75500085589 /* MezamashiGlass */,
+				6E5DFF581CFCF75500085589 /* MezamashiGlassTests */,
+				6E5DFF631CFCF75500085589 /* MezamashiGlassUITests */,
+				6E5DFF3F1CFCF75500085589 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E5DFF3F1CFCF75500085589 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E5DFF3E1CFCF75500085589 /* MezamashiGlass.app */,
+				6E5DFF551CFCF75500085589 /* MezamashiGlassTests.xctest */,
+				6E5DFF601CFCF75500085589 /* MezamashiGlassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E5DFF401CFCF75500085589 /* MezamashiGlass */ = {
+			isa = PBXGroup;
+			children = (
+				6E5DFF411CFCF75500085589 /* AppDelegate.swift */,
+				6E5DFF431CFCF75500085589 /* ViewController.swift */,
+				6E5DFF451CFCF75500085589 /* Main.storyboard */,
+				6E5DFF4B1CFCF75500085589 /* Assets.xcassets */,
+				6E5DFF4D1CFCF75500085589 /* LaunchScreen.storyboard */,
+				6E5DFF501CFCF75500085589 /* Info.plist */,
+				6E5DFF481CFCF75500085589 /* MezamashiGlass.xcdatamodeld */,
+			);
+			path = MezamashiGlass;
+			sourceTree = "<group>";
+		};
+		6E5DFF581CFCF75500085589 /* MezamashiGlassTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E5DFF591CFCF75500085589 /* MezamashiGlassTests.swift */,
+				6E5DFF5B1CFCF75500085589 /* Info.plist */,
+			);
+			path = MezamashiGlassTests;
+			sourceTree = "<group>";
+		};
+		6E5DFF631CFCF75500085589 /* MezamashiGlassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E5DFF641CFCF75500085589 /* MezamashiGlassUITests.swift */,
+				6E5DFF661CFCF75500085589 /* Info.plist */,
+			);
+			path = MezamashiGlassUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E5DFF3D1CFCF75500085589 /* MezamashiGlass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5DFF691CFCF75500085589 /* Build configuration list for PBXNativeTarget "MezamashiGlass" */;
+			buildPhases = (
+				6E5DFF3A1CFCF75500085589 /* Sources */,
+				6E5DFF3B1CFCF75500085589 /* Frameworks */,
+				6E5DFF3C1CFCF75500085589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MezamashiGlass;
+			productName = MezamashiGlass;
+			productReference = 6E5DFF3E1CFCF75500085589 /* MezamashiGlass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E5DFF541CFCF75500085589 /* MezamashiGlassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5DFF6C1CFCF75500085589 /* Build configuration list for PBXNativeTarget "MezamashiGlassTests" */;
+			buildPhases = (
+				6E5DFF511CFCF75500085589 /* Sources */,
+				6E5DFF521CFCF75500085589 /* Frameworks */,
+				6E5DFF531CFCF75500085589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E5DFF571CFCF75500085589 /* PBXTargetDependency */,
+			);
+			name = MezamashiGlassTests;
+			productName = MezamashiGlassTests;
+			productReference = 6E5DFF551CFCF75500085589 /* MezamashiGlassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E5DFF5F1CFCF75500085589 /* MezamashiGlassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5DFF6F1CFCF75500085589 /* Build configuration list for PBXNativeTarget "MezamashiGlassUITests" */;
+			buildPhases = (
+				6E5DFF5C1CFCF75500085589 /* Sources */,
+				6E5DFF5D1CFCF75500085589 /* Frameworks */,
+				6E5DFF5E1CFCF75500085589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E5DFF621CFCF75500085589 /* PBXTargetDependency */,
+			);
+			name = MezamashiGlassUITests;
+			productName = MezamashiGlassUITests;
+			productReference = 6E5DFF601CFCF75500085589 /* MezamashiGlassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E5DFF361CFCF75500085589 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = taisuke;
+				TargetAttributes = {
+					6E5DFF3D1CFCF75500085589 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = A2TF2C92PA;
+					};
+					6E5DFF541CFCF75500085589 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = A2TF2C92PA;
+						TestTargetID = 6E5DFF3D1CFCF75500085589;
+					};
+					6E5DFF5F1CFCF75500085589 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = A2TF2C92PA;
+						TestTargetID = 6E5DFF3D1CFCF75500085589;
+					};
+				};
+			};
+			buildConfigurationList = 6E5DFF391CFCF75500085589 /* Build configuration list for PBXProject "MezamashiGlass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E5DFF351CFCF75500085589;
+			productRefGroup = 6E5DFF3F1CFCF75500085589 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E5DFF3D1CFCF75500085589 /* MezamashiGlass */,
+				6E5DFF541CFCF75500085589 /* MezamashiGlassTests */,
+				6E5DFF5F1CFCF75500085589 /* MezamashiGlassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E5DFF3C1CFCF75500085589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5DFF4F1CFCF75500085589 /* LaunchScreen.storyboard in Resources */,
+				6E5DFF4C1CFCF75500085589 /* Assets.xcassets in Resources */,
+				6E5DFF471CFCF75500085589 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5DFF531CFCF75500085589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5DFF5E1CFCF75500085589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E5DFF3A1CFCF75500085589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5DFF4A1CFCF75500085589 /* MezamashiGlass.xcdatamodeld in Sources */,
+				6E5DFF441CFCF75500085589 /* ViewController.swift in Sources */,
+				6E5DFF421CFCF75500085589 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5DFF511CFCF75500085589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5DFF5A1CFCF75500085589 /* MezamashiGlassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5DFF5C1CFCF75500085589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5DFF651CFCF75500085589 /* MezamashiGlassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E5DFF571CFCF75500085589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E5DFF3D1CFCF75500085589 /* MezamashiGlass */;
+			targetProxy = 6E5DFF561CFCF75500085589 /* PBXContainerItemProxy */;
+		};
+		6E5DFF621CFCF75500085589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E5DFF3D1CFCF75500085589 /* MezamashiGlass */;
+			targetProxy = 6E5DFF611CFCF75500085589 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E5DFF451CFCF75500085589 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E5DFF461CFCF75500085589 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E5DFF4D1CFCF75500085589 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E5DFF4E1CFCF75500085589 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E5DFF671CFCF75500085589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E5DFF681CFCF75500085589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E5DFF6A1CFCF75500085589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MezamashiGlass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.jig.fukuno.MezamashiGlass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E5DFF6B1CFCF75500085589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MezamashiGlass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.jig.fukuno.MezamashiGlass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6E5DFF6D1CFCF75500085589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MezamashiGlassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.jig.fukuno.MezamashiGlassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MezamashiGlass.app/MezamashiGlass";
+			};
+			name = Debug;
+		};
+		6E5DFF6E1CFCF75500085589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MezamashiGlassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.jig.fukuno.MezamashiGlassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MezamashiGlass.app/MezamashiGlass";
+			};
+			name = Release;
+		};
+		6E5DFF701CFCF75500085589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MezamashiGlassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.jig.fukuno.MezamashiGlassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MezamashiGlass;
+			};
+			name = Debug;
+		};
+		6E5DFF711CFCF75500085589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MezamashiGlassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.jig.fukuno.MezamashiGlassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MezamashiGlass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E5DFF391CFCF75500085589 /* Build configuration list for PBXProject "MezamashiGlass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5DFF671CFCF75500085589 /* Debug */,
+				6E5DFF681CFCF75500085589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5DFF691CFCF75500085589 /* Build configuration list for PBXNativeTarget "MezamashiGlass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5DFF6A1CFCF75500085589 /* Debug */,
+				6E5DFF6B1CFCF75500085589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E5DFF6C1CFCF75500085589 /* Build configuration list for PBXNativeTarget "MezamashiGlassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5DFF6D1CFCF75500085589 /* Debug */,
+				6E5DFF6E1CFCF75500085589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E5DFF6F1CFCF75500085589 /* Build configuration list for PBXNativeTarget "MezamashiGlassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5DFF701CFCF75500085589 /* Debug */,
+				6E5DFF711CFCF75500085589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6E5DFF481CFCF75500085589 /* MezamashiGlass.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6E5DFF491CFCF75500085589 /* MezamashiGlass.xcdatamodel */,
+			);
+			currentVersion = 6E5DFF491CFCF75500085589 /* MezamashiGlass.xcdatamodel */;
+			path = MezamashiGlass.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6E5DFF361CFCF75500085589 /* Project object */;
+}
